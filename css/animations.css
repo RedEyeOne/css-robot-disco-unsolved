@@ -1,0 +1,99 @@
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes grow-shrink {
+	0% {
+		transform: scale(1);
+	}
+	33% {
+		transform: scale(1.7);
+	}
+	66% {
+		transform: 0.2;
+	}
+	99% {
+		transform: 1;
+	}
+}
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+	70% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes grow {
+	0% {
+		transform: scaleY(1);
+	}
+	100% {
+		transform: scaleY(3);
+	}
+}
+@keyframes blink {
+	0% {
+		transform: scaleY(1);
+	}
+	2% {
+		transform: scaleY(0.1);
+	}
+	5% {
+		transform: scaleY(1);
+	}
+	100% {
+		transform: scaleY(1);
+	}
+}
+@keyframes rainbow {
+	0% {
+		background-color: red;
+	}
+	14% {
+		background-color: orange;
+	}
+	28% {
+		background-color: yellow;
+	}
+	42% {
+		background-color: green;
+	}
+	57% {
+		background-color: blue;
+	}
+	71% {
+		background-color: indigo;
+	}
+	85% {
+		background-color: violet;
+	}
+	100% {
+		background-color: red;
+	}
+}
+@keyframes shake {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	20%,
+	60% {
+		transform: translateX(-5px);
+	}
+	40%,
+	80% {
+		transform: translateX(5px);
+	}
+}
